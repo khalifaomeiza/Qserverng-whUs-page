@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    color: rgb(76,76,76);
+    
+}
+.whyUs h1 {
+    text-align: center;
+    font-weight: lighter ;
+    padding:15px 0;
+    margin: 10px;
+}
+.line {
+    width: 60%;
+    margin: auto;
+    opacity: 0.5;
+}
+.subtitle {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 0.9em;
+}
+.container {
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(4,250px);
+    /* grid-template-columns: 250px 250px 250px 250px; */
+    margin: 50px auto;
+    justify-content: center;
+}
+img {
+    padding:20px 0;
+}
+
+.support {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    /* margin: 0 10px; */
+    border-radius: 5px;
+    
+}
+.overline,.underline {
+    width:90%;
+    margin: 10px auto;
+    opacity: 0.1;
+}
+.support h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+     padding: 10px 0;
+    
+}
+.support p {
+    font-size: 12px;
+    padding: 25px;
+    text-align: center;
+    line-height: 1.6;
+}
+.uptime {
+    background-color: rgb(240, 240, 240);
+    /* margin: 0 10px; */
+    text-align: center;
+    border-radius: 5px;
+}
+.uptime h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+     padding: 10px 0;
+}
+.uptime p {
+    font-size: 12px;
+    padding: 25px;
+    text-align: center;
+    line-height: 1.6;
+
+}
+.scalable {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    /* margin: 0 10px; */
+    border-radius: 5px;
+}
+.scalable h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+     padding: 10px 0;
+}
+.scalable p {
+    font-size: 12px;
+    padding: 25px;
+    text-align: center;
+    line-height: 1.6;
+
+}
+.databackup {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    /* margin: 0 10px; */
+    border-radius: 5px;
+}
+.databackup h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+     padding: 10px 0;
+
+}
+.databackup p {
+    font-size: 12px;
+    padding: 25px;
+    text-align: center;
+    line-height: 1.6;
+
+}
